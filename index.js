@@ -56,3 +56,7 @@ DefaultDict.prototype.get = function(key, value) {
   this.set(key, this.defaultValue());
   return this.get(key);
 }
+
+DefaultDict.prototype.add = function(key, value) {
+  this.set(key, this.get(key) + value);
+}
