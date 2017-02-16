@@ -1,0 +1,68 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "defaultdict",
+        "scope": null,
+        "escapedName": "defaultdict",
+        "name": "defaultdict",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "/Users/sreeee/Dropbox/MyStuff/Code/acwork/elanic-server"
+    ]
+  ],
+  "_from": "defaultdict@latest",
+  "_id": "defaultdict@0.0.1",
+  "_inCache": true,
+  "_location": "/defaultdict",
+  "_npmUser": {
+    "name": "jdubie",
+    "email": "jdubie@cs.stanford.edu"
+  },
+  "_npmVersion": "1.2.14",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "defaultdict",
+    "scope": null,
+    "escapedName": "defaultdict",
+    "name": "defaultdict",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/defaultdict/-/defaultdict-0.0.1.tgz",
+  "_shasum": "c2b9dd0f902c74981c19f031cdbe628c8b1bdfdd",
+  "_shrinkwrap": null,
+  "_spec": "defaultdict",
+  "_where": "/Users/sreeee/Dropbox/MyStuff/Code/acwork/elanic-server",
+  "dependencies": {
+    "underscore": "~1.5.1"
+  },
+  "description": "defaultdict -----------",
+  "devDependencies": {
+    "mocha": "~1.8.2",
+    "should": "~1.2.2"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "c2b9dd0f902c74981c19f031cdbe628c8b1bdfdd",
+    "tarball": "https://registry.npmjs.org/defaultdict/-/defaultdict-0.0.1.tgz"
+  },
+  "maintainers": [
+    {
+      "name": "jdubie",
+      "email": "jdubie@cs.stanford.edu"
+    }
+  ],
+  "name": "defaultdict",
+  "optionalDependencies": {},
+  "readme": "defaultdict\n-----------\n\nNodejs port of python [defaultdict](http://docs.python.org/2/library/collections.html#collections.defaultdict)\n\nexamples\n--------\n\n```javascript\nvar DefaultDict = require('defaultdict')\n\n// create dict\nvar dict = new DefaultDict('baz');\n\n// works like normal dict\ndict.set('foo', 'bar');\ndict.get('foo');\n//=> 'bar'\n\n// get undefined keys\ndict.get('qux');\n//=> 'baz'\n```\n",
+  "readmeFilename": "README.md",
+  "version": "0.0.1"
+}
