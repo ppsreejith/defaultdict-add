@@ -10,7 +10,7 @@ examples
 var DefaultDict = require('defaultdict')
 
 // create dict
-var dict = new DefaultDict('baz');
+var dict = new DefaultDict(0);
 
 // works like normal dict
 dict.set('foo', 'bar');
@@ -19,5 +19,10 @@ dict.get('foo');
 
 // get undefined keys
 dict.get('qux');
-//=> 'baz'
+//=> 0
+
+// add a value to a key (must support + operator)
+dict.add('qux', 5);
+dict.get('qux')
+//=> 5
 ```
